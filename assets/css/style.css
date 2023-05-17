@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo1{
+    text-align: center;
+    color: rgb(170, 166, 174);
+}
+
+.navegador{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(109, 113, 113);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logonav{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: auto;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.item{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(/img/fondo.png);
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.peluches{ 
+    height: 300px;
+    width: 300px;
+}
+
+.footerimg{
+    height: 150px;
+    width: 150px;
+}
+
+.oferta{
+    width: 400px;
+    height: 400px;
+}
+
+.offertaname{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(16, 16, 67);
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(28, 47, 112);
+}
+
+.producto{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(26, 39, 63);
+}
+
+.redes{
+    text-align: center;
+}
+
