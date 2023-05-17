@@ -9,22 +9,7 @@
     color: rgb(170, 166, 174);
 }
 
-.navegador{
-    width: 90%;
-    height: 100px;
-    background-color: rgb(109, 113, 113);
-    margin: 0 auto;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.logonav{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    margin: auto;
-}
 
 .menu{
     list-style: none;
@@ -51,9 +36,103 @@ footer{
     text-align: center;
 }
 
-.peluches{ 
+.s1{ 
     height: 300px;
     width: 300px;
+    grid-area: s1;
+}
+
+.s2{ 
+    height: 300px;
+    width: 300px;
+    grid-area: s2;
+}
+
+.s3{ 
+    height: 300px;
+    width: 300px;
+    grid-area: s3;
+}
+
+.s4{ 
+    height: 300px;
+    width: 300px;
+    grid-area: s4;
+}
+
+.s5{ 
+    height: 300px;
+    width: 300px;
+    grid-area: s5;
+}
+
+.s6{ 
+    height: 300px;
+    width: 300px;
+    grid-area: s6;
+}
+
+.h1{ 
+    height: 100%;
+    width: 100%;
+    grid-area: h1;
+}
+
+@media(max-width: 375px){
+    .h1{
+        height: 100%;
+        width: 100%;
+    }
+    .s1{
+        height: 100%;
+        width: 100%;
+    }
+    .s2{
+        height: 100%;
+        width: 100%;
+    }
+    .s3{
+        height: 100%;
+        width: 100%;
+    }
+    .s4{
+        height: 100%;
+        width: 100%;
+    }
+    .s5{
+        height: 100%;
+        width: 100%;
+    }
+    .s6{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.productoss{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-template-areas: 
+    "h1 h1 s1"
+    "h1 h1 s2"
+    "h1 h1 s3"
+    "s6 s5 s4";
+}
+
+@media (max-width: 375px){
+    .productoss{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "h1 h1"
+    "h1 h1"
+    "s1 s2"
+    "s3 s4"
+    "s5 s6";
+    }
 }
 
 .footerimg{
@@ -61,16 +140,6 @@ footer{
     width: 150px;
 }
 
-.oferta{
-    width: 400px;
-    height: 400px;
-}
-
-.offertaname{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    color: rgb(16, 16, 67);
-}
 
 .titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -78,8 +147,8 @@ footer{
 }
 
 .producto{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(26, 39, 63);
+    font-family:Arial, Helvetica, sans-serif ;
+    color: azure;
 }
 
 .redes{
