@@ -11,13 +11,11 @@
 <body>
 
 <header>
-  <!--SECTION DEL TITULO -->
-  <section>
-    <a href="./index.html" class="titulo"><h1>Tienda de Peluches</h1></a>
-  </section>
-  <!--SECTION BARRA DE NAVEGACION-->
-  <section>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!--ENCABEZADO -->
+<h1>
+<a href="./index.html" class="titulo">Tienda de Peluches</a>
+</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand w-25 m-auto" href="./index.html"> <img src="./img/logo.png" class="logo"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +40,6 @@
           </div>
         </div>
       </nav>
-    </section>
 </header>
 <main>
   <!--SECTION CARRUSEL-->
@@ -57,21 +54,21 @@
           <div class="carousel-item active">
             <img src="./img/albedo oferta.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Ofertas</h5>
+              <h2>Ofertas</h2>
               <p>Albedo + Traje.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/slimes.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Ofertas</h5>
+              <h2>Ofertas</h2>
               <p>Slimes x4.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="./img/venti traje.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Ofertas</h5>
+              <h2>Ofertas</h2>
               <p>Venti + Traje.</p>
             </div>
           </div>
@@ -87,17 +84,21 @@
       </div>
     </section>
 <!--SECTION DE NOVEDADES -->
-
-      <h2 class="titulo"> Productos Nuevos </h2>
-      <section class="novedades">
-    <div>
+<section class="novedad">
+      <h2 class="titulo"> 
+        Productos Nuevos 
+      </h2>
+    <div class="novedades">
       <img src="./img/pom pom peluche.webp" class="imagen">
     </div>
-    <div>
+    <div class="novedades">
       <img src="./img/tartaglia.jpg" class="imagen">
     </div>
-    <div>
+    <div class="novedades">
       <img src="./img/paimon.webp" class="imagen">
+    </div>
+    <div class="novedades">
+      <img src="./img/guoba.webp" class="imagen">
     </div>
     </section>
 <!--SECTION PREGUNTAS FRECUENTES-->
@@ -107,11 +108,11 @@
       </h2>
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
-          <h2 class="accordion-header">
+          <h3 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
               ¿Hacen envios?
             </button>
-          </h2>
+          </h3>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
               <strong>Si,</strong> hacemos envios a todo el pais.
@@ -119,11 +120,11 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header">
+          <h3 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
               ¿Aceptan tarjeta?
             </button>
-          </h2>
+          </h3>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
             <div class="accordion-body">
               <strong>Si,</strong> aceptamos de credito y debito.
@@ -131,11 +132,11 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header">
+          <h3 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
               ¿Se puede abonar en cuotas?
             </button>
-          </h2>
+          </h3>
           <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
             <div class="accordion-body">
               <strong>No,</strong> se debe abonar en un solo pago.
@@ -143,11 +144,11 @@
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header">
+          <h3 class="accordion-header">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
               ¿Que formas de pago aceptan?
             </button>
-          </h2>
+          </h3>
           <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
             <div class="accordion-body">
               <strong>Aceptamos pago en efectivo, transferencia o por tarjeta de debito/credito</strong>
@@ -161,6 +162,11 @@
 </main>
 
 <footer>
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+    </ol>
+  </nav>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
